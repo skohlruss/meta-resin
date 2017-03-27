@@ -1,6 +1,7 @@
 Change log
 -----------
 
+* Add support for transparent proxy redirection using redsocks [Pablo]
 * Switch to resin.io ntp pool [petrosagg]
 * Undefine backwards compatibilty variable, INITRAMFS_TASK [Theodor]
 * Enable CONFIG_KEYS, docker 17 requirment [Theodor]
