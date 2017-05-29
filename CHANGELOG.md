@@ -1,6 +1,8 @@
 Change log
 -----------
 
+* Export all the properties we need from resin-vars so there's no need for other places to parse the config file [Page]
+* Watch for config.json changes and update the VPN config as necessary [Page]
 * Define IMAGE_NAME_SUFFIX, needed for resinhup, for Yocto versions older than Morty [Florin]
 * Add support for modifying the regulatory domain for wifi interfaces [Michal]
 * Add support for qmi and mbim cell modems [Joshua]
