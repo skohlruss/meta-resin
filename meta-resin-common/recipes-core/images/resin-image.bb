@@ -23,9 +23,10 @@ IMAGE_FSTYPES = "${@bb.utils.contains('RESINHUP', 'yes', 'tar', '', d)}"
 
 IMAGE_FEATURES_append = " \
     ${@bb.utils.contains('DISTRO_FEATURES', 'development-image', 'debug-tweaks', '', d)} \
+    package-management \
+    read-only-rootfs \
     splash \
     ssh-server-dropbear \
-    read-only-rootfs \
     "
 
 IMAGE_INSTALL_append = " \
