@@ -1,6 +1,7 @@
 Change log
 -----------
 
+* Force ipk packages and include opkg package management in resinOS images [Andrei]
 * Update NetworkManager to 1.8.0 [Andrei]
 * Update supervisor to v4.3.1 [Andrei]
 * Set NetworkManager connection attempts to infinity [petrosagg]
