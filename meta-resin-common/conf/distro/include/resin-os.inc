@@ -74,3 +74,6 @@ RESIN_FLASHER_FLAG_FILE = "resin-image-flasher"
 INITRAMFS_IMAGE = "resin-image-initramfs"
 INITRAMFS_IMAGE_BUNDLE = "1"
 KERNEL_INITRAMFS = "-initramfs"
+
+# resinOS defaults to ipk packages
+PACKAGE_CLASSES ?= "package_ipk"
