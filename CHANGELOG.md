@@ -1,6 +1,7 @@
 Change log
 -----------
 
+* Add busybox patch to fix tar unpacking [Will]
 * Add a quirk for /etc/mtab [Will]
 * Switch to resin.io ntp pool [petrosagg]
 * Undefine backwards compatibilty variable, INITRAMFS_TASK [Theodor]
