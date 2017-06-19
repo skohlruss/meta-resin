@@ -1,6 +1,7 @@
 Change log
 -----------
 
+* Add Dockerfile template and entry.sh for running the generated tar as a Docker container [Praneeth]
 * Add a quirk for /etc/mtab [Will]
 * Switch to resin.io ntp pool [petrosagg]
 * Undefine backwards compatibilty variable, INITRAMFS_TASK [Theodor]
