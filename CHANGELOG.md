@@ -1,6 +1,7 @@
 Change log
 -----------
 
+* Allow downloading a missing supervisor [Will]
 * Add a quirk for /etc/mtab [Will]
 * Switch to resin.io ntp pool [petrosagg]
 * Undefine backwards compatibilty variable, INITRAMFS_TASK [Theodor]
